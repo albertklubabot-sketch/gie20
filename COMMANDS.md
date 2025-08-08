@@ -1,11 +1,11 @@
 # GIE20 – Skróty Uruchamiania
-
+jaka historia
 ## 1) Podstawowy start
 ```bash
 python -m core.gie_main_switch
 2) Wymuszenie UTF-8
 python -X utf8 -m core.gie_main_switch
-
+xxxxxx
 3) Start z własnym skryptem testowym
 python -X utf8 -m core.test_mt5_connection.py
 
@@ -66,4 +66,4 @@ Wyjście z venv	deactivate
 (opcjonalnie) alias w aktualnej sesji	doskey gie=python -X utf8 -m core.gie_main_switch --verbose
 (potem wystarczy wpisać gie
 
- Test: commit z gałęzi dev
+ Test: commit 
