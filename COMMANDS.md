@@ -65,5 +65,5 @@ Uruchomienie z własnym skryptem (np. scripts/my_script.py)	python -X utf8 scrip
 Wyjście z venv	deactivate
 (opcjonalnie) alias w aktualnej sesji	doskey gie=python -X utf8 -m core.gie_main_switch --verbose
 (potem wystarczy wpisać gie
-
+xxxxxxx
  Test: commit 
