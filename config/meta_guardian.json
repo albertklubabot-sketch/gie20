@@ -1,0 +1,11 @@
+{
+  "max_drawdown": 0.2,
+  "max_open_trades": 20,
+  "max_grid_size": 7,
+  "min_equity_margin": 0.25,
+  "snapshot_dir": "./data/snapshots",
+  "logfile": "./data/meta_guardian.log",
+  "alert_email": "",
+  "meta_tune": true,
+  "monitor_cycle_sec": 60
+}

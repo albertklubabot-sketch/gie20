@@ -1,0 +1,19 @@
+# wyklucz lokalne środowisko
+venv/
+.env
+
+# wyklucz logi i backupy
+*.log
+logs/
+clones/log.txt
+
+# wyklucz pliki tymczasowe
+*.pyc
+__pycache__/
+*.pkl
+*.tmp
+*.bak
+
+# pliki edytora
+.vscode/
+struktura.txt

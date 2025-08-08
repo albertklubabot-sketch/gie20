@@ -1,0 +1,26 @@
+[
+  {
+    "action": "buy",
+    "result": "open",
+    "profit": 0,
+    "ts": 1754054191.2181504,
+    "sensors": {},
+    "retcode": 10009
+  },
+  {
+    "action": "close",
+    "result": "close",
+    "profit": 0,
+    "ts": 1754054201.5526948,
+    "sensors": {},
+    "retcode": 10009
+  },
+  {
+    "action": "buy",
+    "result": "open",
+    "profit": 0,
+    "ts": 1754054211.8362715,
+    "sensors": {},
+    "retcode": 10009
+  }
+]

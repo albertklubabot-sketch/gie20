@@ -1,0 +1,65 @@
+# Ignoruj środowisko wirtualne
+venv/
+ENV/
+.env/
+.venv/
+
+# Pliki konfiguracyjne z danymi dostępowymi i kluczami
+config/mt5_login.json
+config/mt5_secrets.json
+config/mt5_config.json
+
+# Pliki tymczasowe i robocze
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.cache
+.DS_Store
+Thumbs.db
+
+# Foldery cache i Pythonowe
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pliki IDE i systemowe
+.vscode/
+.idea/
+*.iml
+
+# Pliki i foldery danych, archiwa
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Pliki testowe i wyniki
+*.out
+*.result
+*.test
+
+# Ignoruj pliki markdown, manifestu jeśli są generowane automatycznie
+gie20_manifest.md
+
+# Ignoruj inne potencjalne pliki z tajnymi danymi
+*.env
+*.secrets.json
+*.key
+*.pem
+
+# Ignoruj wygenerowane archiwa
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Ignoruj README jeśli jest generowane automatycznie (usuń jeśli masz własny)
+# README.md
+
+# Pliki własne użytkownika
+*.user
