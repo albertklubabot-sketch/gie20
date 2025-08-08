@@ -17,10 +17,8 @@ python -X utf8 -m core.gie_main_switch
 
 5) Windows (cmd)
 call venv\Scripts\activate.bat
-python-X utf8-m core.gie_main_switch
-
-                                                      6) Debug + verbose
-                                                      PYTHONUTF8=1 python -X utf8 -m core.gie_main_switch --debug --verbose
+python-X utf8-m core.gie_main_switch  6) Debug + verbose
+PYTHONUTF8=1 python -X utf8 -m core.gie_main_switch --debug --verbose
 
 
 Dodaj szybki „sanity‐check” na samym początku pliku
@@ -66,9 +64,6 @@ Test samego połączenia z MT5	python -X utf8 -m core.test_mt5_connection
 Uruchomienie z własnym skryptem (np. scripts/my_script.py)	python -X utf8 scripts\my_script.py
 Wyjście z venv	deactivate
 (opcjonalnie) alias w aktualnej sesji	doskey gie=python -X utf8 -m core.gie_main_switch --verbose
-(potem wystarczy wpisać gie)  
+(potem wystarczy wpisać gie
 
-
-
-
-                    
+ Test: commit z gałęzi dev
